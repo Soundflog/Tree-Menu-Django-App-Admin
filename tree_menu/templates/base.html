@@ -1,0 +1,43 @@
+{% load menu_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin: 5px 0;
+        }
+        .menu li a {
+            text-decoration: none;
+            color: black;
+        }
+        .menu li a.active {
+            font-weight: bold;
+            color: blue;
+        }
+        .submenu {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            {% draw_menu 'main_menu' %}
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to the site</h1>
+        <p>This is an example page with a dynamic menu.</p>
+    </main>
+    <footer>
+        <p>© 2024 Your Company</p>
+    </footer>
+</body>
+</html>

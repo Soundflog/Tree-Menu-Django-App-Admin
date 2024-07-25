@@ -1,0 +1,10 @@
+
+/.idea
+/menu/__pycache__
+/menu/migrations/__pycache__
+/menu/templatetags/__pycache__
+/tree_menu/__pycache__
+/tree_menu/__pycache__
+/venv/Lib/site-packages/_distutils_hack
+/venv/Lib/site-packages/pip-22.3.1.dist-info
+/venv
